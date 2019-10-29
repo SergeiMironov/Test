@@ -14,6 +14,10 @@ namespace ConsoleAppTestWebGitHub
             int number = Convert.ToInt32(Console.ReadLine());
             ChetnostiNumber(number);
         }
+        /// <summary>
+        /// Метод определяющий четность чисел
+        /// </summary>
+        /// <param name="a">Целое число, четность которого необходимо определить</param>
         static void ChetnostiNumber(int a)
         {
         if (a%2==0)
