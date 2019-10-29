@@ -10,6 +10,16 @@ namespace ConsoleAppTestWebGitHub
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Введите число для определения четности");
+            int number = Convert.ToInt32(Console.ReadLine());
+            if (number%2==0)
+            {
+                Console.WriteLine("Число четное");
+            }
+            else
+            {
+                Console.WriteLine("Число нечётное");
+            }
         }
     }
 }
