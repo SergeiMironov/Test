@@ -12,7 +12,11 @@ namespace ConsoleAppTestWebGitHub
         {
             Console.WriteLine("Введите число для определения четности");
             int number = Convert.ToInt32(Console.ReadLine());
-            if (number%2==0)
+            ChetnostiNumber(number);
+        }
+        static void ChetnostiNumber(int a)
+        {
+        if (a%2==0)
             {
                 Console.WriteLine("Число четное");
             }
